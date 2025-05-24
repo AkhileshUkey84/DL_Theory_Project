@@ -8,7 +8,7 @@ from tensorflow.keras.models import load_model
 import os
 
 # Load model and encoder
-model = load_model("ser_model.keras")
+model = load_model("ser_model_compatible.keras")
 encoder = joblib.load("encoder.pkl")
 
 # Feature extraction function
