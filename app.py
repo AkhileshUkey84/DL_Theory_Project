@@ -4,7 +4,7 @@ import librosa
 import joblib
 import tensorflow as tf
 from tempfile import NamedTemporaryFile
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 import os
 
 # Load model and encoder
